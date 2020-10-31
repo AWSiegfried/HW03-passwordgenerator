@@ -2,6 +2,7 @@
 ### Description
 For this assignment, we were supposed to create a passowrd generator.  The user selects how many characters they'd like (I set a limit betwwen 8 and 128).  They were then to choose if they wanted to include numbers, special characrters, uppercase and lowercase letters.  It was to be set up so that when they click the generate password button, it would prompt them with those 5 questions, then display thier new password in the text bubble. 
 
+<hr>
 
 
 ### General Logic
@@ -11,18 +12,19 @@ The way I set up the code is as follows.
 <li>Now that I have my new total array of desired characters, I filled the rest of the password array by randomly selecting strings from the total array until i was equal to the original number selected by the first prompt. 
 <li>Then it was just a matter of returning it to the text box and linking it to the generate password button. 
 
-
+<hr>
 
 ### Screenshot
 ![screenshot](/assets/passwordgenerator.png?raw=true)
 
+<hr>
 
 ### Links
-Github page - 
-Password Generator - 
+Github page - https://github.com/AWSiegfried/HW03-passwordgenerator
 
+Password Generator - https://awsiegfried.github.io/HW03-passwordgenerator/ 
 
-
+<hr>
 
 ### Original Psuedocode
 1. When User clicks generatePassword button, then prompt "how many characters do you want.
