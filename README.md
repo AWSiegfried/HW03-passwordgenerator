@@ -1,6 +1,8 @@
 
 ### Description
-For this assignment, we were supposed to create a password generator.  The user selects how many characters they'd like (I set a limit between 8 and 128).  They were then to choose if they wanted to include numbers, special characters, uppercase and lowercase letters.  It was to be set up so that when they click the generate password button, it would prompt them with those 5 questions, then display their new password in the text bubble. 
+For this assignment, we were supposed to create a password generator.  The user selects how many characters they'd like (I set a limit between 8 and 128).  They were then to choose if they wanted to include numbers, special characters, uppercase and lowercase letters.  It was to be set up so that when they click the generate password button, it would prompt them with those 5 questions, then display their new password in the text bubble.  
+
+There is one functionality that I wouldn't do for a professional assignment but would leave in for something personal. If the user types in a word/letter opposed to a number for the initial prompt, it will only create a password as long as the number of future prompts they wish to include.  I understand that professionally speaking it is better to force them to choose a number, but honestly I find it funny that if they are trying to be snarky and put in a purposefully wrong input it gives a purposefully bad password.  This works because I set up my code to force a string from each chosen character type into the final password array each time they confirm a prompt.  That way it is a guarantee you have at least one character from each array in the final password, and also as long as you say yes to something (even when typing in a word), you get some answer. 
 
 <hr>
 
